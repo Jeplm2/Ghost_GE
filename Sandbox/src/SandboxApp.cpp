@@ -1,4 +1,4 @@
-#include "../../Ghost/src/Ghost.h"
+#include <Ghost.h>
 
 class Sandbox : public Ghost::Application
 {
