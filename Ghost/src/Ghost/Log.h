@@ -1,7 +1,5 @@
 #pragma once
-#include <iostream>
-#include <string>
-#include "./Core.h"
+#include <Ghost/Core.h>
 
 
 namespace Ghost

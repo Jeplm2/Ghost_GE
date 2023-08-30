@@ -1,8 +1,6 @@
 #pragma once
 
 #include <Ghost/Core.h>
-#include <functional>
-#include <string>
 
 namespace Ghost
 {

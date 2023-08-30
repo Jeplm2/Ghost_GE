@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Ghost/Events/Event.h>
-#include <sstream> 
 
 namespace Ghost
 {
