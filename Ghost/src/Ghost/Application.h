@@ -1,6 +1,8 @@
 #pragma once
 
-// #include "./Core.h"
+#include <Ghost/Core.h>
+#include <Ghost/Events/Event.h>
+
 
 namespace Ghost
 {
