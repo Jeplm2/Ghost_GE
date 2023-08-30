@@ -7,7 +7,6 @@ preInc="./Ghost/src/gpch.h"
 source_files=(
     "./Sandbox/src/SandboxApp.cpp"
     "./Ghost/src/Ghost/Application.cpp"
-    "./Ghost/src/Ghost/Log.cpp"
     "./Ghost/src/Platform/WindowsWindow.cpp"
 )
 

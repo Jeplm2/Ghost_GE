@@ -2,11 +2,5 @@
 #include <Ghost/Core.h>
 
 
-namespace Ghost
-{
-    class GHOST_API Log
-    {
-        public:
-            Log(std::string log);
-    };
-}
+#define LOG(x) { std::cout << x << std::endl; }
+#define NLOG(x, y) { if(!x) std::cout << y << std::endl; }

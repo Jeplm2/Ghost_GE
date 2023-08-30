@@ -4,7 +4,7 @@
 Ghost::Application* Ghost::CreateApplication();
 int main(int argc, char** argv)
 {
-    Ghost::Log log("Ghost GE");
+    LOG("Ghost GE");
 
 
     auto app = Ghost::CreateApplication();
