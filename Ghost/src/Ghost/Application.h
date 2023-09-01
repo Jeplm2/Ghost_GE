@@ -2,6 +2,7 @@
 
 #include <Ghost/Core.h>
 #include <Ghost/Events/Event.h>
+#include <Ghost/Events/ApplicationEvent.h>
 #include <Ghost/Window.h>
 
 
@@ -17,6 +18,8 @@ namespace Ghost
 
             void OnEvent(Event& e);
         private:
+            bool OnWindowClose(WindowCloseEvent& e);
+
             std::unique_ptr<Window> m_Window;
             bool m_Running = true;
     };

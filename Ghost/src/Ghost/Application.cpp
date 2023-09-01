@@ -22,8 +22,12 @@ namespace Ghost
 
     void Application::OnEvent(Event& e)
     {
-        LOG(e);
+        EventDispatcher dispather(e);
+        dispather.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
+
+        // LOG(e);
     }
+
 
     void Application::run()
     {
@@ -36,5 +40,11 @@ namespace Ghost
             glClear(GL_COLOR_BUFFER_BIT);
             m_Window->OnUpdate();
         }
+    }
+
+    bool Application::OnWindowClose(WindowCloseEvent& e)
+    {
+        m_Running = false;
+        return true;
     }
 }
