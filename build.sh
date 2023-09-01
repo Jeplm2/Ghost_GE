@@ -17,5 +17,6 @@ GL=(
     "-lglfw"
 )
 
-g++ -include "$preInc" "${source_files[@]}" -o "$name" "$includes" "${GL[@]}"
+time g++ -include "$preInc" "${source_files[@]}" -o "$name" "$includes" "${GL[@]}"
+
 ./"$name"
