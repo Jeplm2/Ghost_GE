@@ -8,7 +8,7 @@ int main(int argc, char** argv)
 
 
     auto app = Ghost::CreateApplication();
-    app->run();
+    app->Run();
     delete app;
 
     return 0;
