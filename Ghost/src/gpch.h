@@ -13,3 +13,5 @@
 #include <unordered_set>
 
 #include <Ghost/Log.h>
+#include <glad/glad.h>
+#include <KHR/khrplatform.h>
